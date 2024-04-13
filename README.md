@@ -1,5 +1,5 @@
 # tron
-this is my final project for intro to computer science. to run it, you must install pygame. i do not claim to own gamebox.py, but have received permission to redistribute it. a note about the rending and collision: they are done at the same time to save on operations, this led to the previously mentioned feature. it would be possible to remove this feature, but it would require a complete rewrite or doubling the collision operations per frame (which would increase lag noticeably).
+this is my final project for intro to computer science. to run it, you must install pygame. i do not claim to own gamebox.py, but have received permission to redistribute it. a note about the rending and collision: they are done at the same time to save on operations, this led to the previously mentioned feature. it would be possible to remove this feature, but it would require a complete rewrite or doubling the collision operations per frame (which would increase lag noticeably). i have also included falldown.py, a simple game i made to practice using the gamebox and pygame modules.
 
 bugs:  
 - hardware limitations on the keyboard can lead to buttons not registering a press, if you experience unexpected movement during gameplay it's probably because of this.
